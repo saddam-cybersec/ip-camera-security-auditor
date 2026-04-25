@@ -45,33 +45,30 @@ Use of this tool against targets without prior written consent is illegal. The d
 1. Install [Python 3.10+](https://www.python.org/downloads/).
 2. Open PowerShell in the project folder:
 
-```powershell
+````powershell
 pip install -r requirements.txt
 python main.py
 </details>
 <details>
-<summary>
-<b>2. Linux Setup (Kali/Ubuntu/Debian)</b>
-</summary>
+<summary><b>2. Linux Setup (Kali/Ubuntu/Debian) (Click to expand)</b></summary>
 Install system dependencies:
-code
-Bash
+```Bash
 sudo apt update
 sudo apt install python3-pip python3-pyqt5 ffmpeg -y
+</details>
+<details>
 Install Python requirements:
-code
-Bash
+```Bash
 pip3 install -r requirements.txt
 Run the application:
-code
-Bash
+```Bash
 python3 main.py
 </details>
 <details>
 <summary><b>3. Termux Setup (Android)</b></summary>
 Note: Requires an X11 environment or VNC for GUI display.
 1. Setup X11 Repo and Python:
-```
+````
 
 pkg install x11-repo
 pkg install python python-pip qt5-base-desktop-minimal-common
@@ -88,15 +85,16 @@ Audit Settings: Load custom passwords.txt and set delays.
 Test Authentication: Perform the strict credential audit.
 Validate Streams: Confirm unauthorized access to video feeds.
 Export: Generate a professional PDF or CSV report.
+
 📂 Project Structure
 ip-cam-auditor/
-├── main.py              # Application Entry Point
+├── main.py # Application Entry Point
 ├── app/
-│   ├── config/          # Port definitions and credentials
-│   ├── core/            # Worker logic (Scan, Auth, Enum)
-│   ├── ui/              # GUI Layouts and Styles
-│   └── utils/           # Helper functions and PDF engines
-├── requirements.txt     # Python Dependencies
-└── LICENSE              # MIT License
+│ ├── config/ # Port definitions and credentials
+│ ├── core/ # Worker logic (Scan, Auth, Enum)
+│ ├── ui/ # GUI Layouts and Styles
+│ └── utils/ # Helper functions and PDF engines
+├── requirements.txt # Python Dependencies
+└── LICENSE # MIT License
 📄 License
 Distributed under the MIT License. See LICENSE for more information.
