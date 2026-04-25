@@ -96,7 +96,7 @@ The tool enforces a sequential security methodology:
 
 1. Scan Network: Discover live assets on the subnet.
 2. Enumerate Services: Identify vendor signatures and active endpoints.
-3. Audit Settings: Load custom passwords.txt and set delays.
+3. Audit Settings: Load custom `passwords.txt` and set delays.
 4. Test Authentication: Perform the strict credential audit.
 5. Validate Streams: Confirm unauthorized access to video feeds.
 6. Export: Generate a professional PDF or CSV report.
