@@ -35,71 +35,6 @@ Use of this tool against targets without prior written consent is illegal. The d
 
 ---
 
-## 🛠️ Installation & Setup
-
-<details>
-<summary><b>1. Windows Setup (Click to expand)</b></summary>
-
-1. Install [Python 3.10+](https://www.python.org/downloads/).
-2. Open PowerShell in the project folder:
-
-```powershell
-pip install -r requirements.txt
-python main.py
-```
-
-</details>
-<details>
-<summary><b>2. Linux Setup (Kali/Ubuntu/Debian)</b></summary>
-1. Install system dependencies:
-sudo apt update
-sudo apt install python3-pip python3-pyqt5 ffmpeg -y
-1. Install Python requirements:
-pip3 install -r requirements.txt
-1. Run the application:
-python3 main.py
-
-Looking at your screenshots, the reason it looks "massive" and cluttered is that the Markdown syntax for the Linux, Termux, and Workflow sections got merged into a single paragraph. GitHub needs extra empty lines to separate sections correctly.
-Here is a cleaned-up, highly organized version of the README.md. I have used collapsible sections (dropdowns) for the installation steps. This makes the page look very short and professional, but all the information is still there if someone clicks on it.
-Copy and Paste this into your README.md:
-code
-Markdown
-
-# IP Camera Security Auditor ⬡
-
-![Field](https://img.shields.io/badge/Field-CyberSecurity-red)
-![Certification](https://img.shields.io/badge/Auditor-CEH_Certified-blue)
-![Language](https://img.shields.io/badge/Language-Python_3.10+-yellow)
-![License](https://img.shields.io/badge/License-MIT-green)
-
-A professional, GUI-based security orchestration tool designed for auditing IP cameras within authorized lab environments.
-
-## 👤 Developed By
-
-**SADDAM HUSSAIN**  
-_Certified Ethical Hacker (CEH) | CyberSecurity Professional_
-
-- **LinkedIn:** [saddam-cybersec](https://www.linkedin.com/in/saddam-cybersec/)
-- **GitHub:** [saddam-cybersec](https://github.com/saddam-cybersec)
-- **Email:** mail.cybersec92@gmail.com | f.saddam319@gmail.com
-
----
-
-## ⚖️ Legal Disclaimer
-
-**FOR AUTHORIZED SECURITY TESTING ONLY.**  
-Use of this tool against targets without prior written consent is illegal. The developer assumes no liability and is not responsible for any misuse or damage caused by this software.
-
----
-
-## 🚀 Key Features
-
-- **Network Discovery:** Multi-threaded TCP scanning to identify active IoT assets.
-- **Advanced Enumeration:** Signature-based vendor detection (Hikvision, Dahua, etc.).
-- **Smart Auth Auditing:** Baseline comparison logic to eliminate false-positives.
-- **Professional PDF Reporting:** Generates high-level reports with risk highlights.
-- **Context-Aware UI:** Right-click support to copy cell/row data for documentation.
-
 ---
 
 ## 🛠️ Installation & Setup
@@ -115,7 +50,9 @@ pip install -r requirements.txt
 python main.py
 </details>
 <details>
-<summary><b>2. Linux Setup (Kali/Ubuntu/Debian)</b></summary>
+<summary>
+<b>2. Linux Setup (Kali/Ubuntu/Debian)</b>
+</summary>
 Install system dependencies:
 code
 Bash
