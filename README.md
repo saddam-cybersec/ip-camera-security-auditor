@@ -93,12 +93,32 @@ python main.py
 ## 📖 Audit Workflow
 
 The tool enforces a sequential security methodology:
-Scan Network: Discover live assets on the subnet.
-Enumerate Services: Identify vendor signatures and active endpoints.
-Audit Settings: Load custom passwords.txt and set delays.
-Test Authentication: Perform the strict credential audit.
-Validate Streams: Confirm unauthorized access to video feeds.
-Export: Generate a professional PDF or CSV report.
+
+1. Scan Network: Discover live assets on the subnet.
+2. Enumerate Services: Identify vendor signatures and active endpoints.
+3. Audit Settings: Load custom passwords.txt and set delays.
+4. Test Authentication: Perform the strict credential audit.
+5. Validate Streams: Confirm unauthorized access to video feeds.
+6. Export: Generate a professional PDF or CSV report.
+
+---
+
+## 📂 Wordlist Format
+
+When using the custom dictionary feature in the **Audit Settings** tab, ensure your `.txt` file follows the standard credential format. Each line must contain one pair of credentials separated by a colon.
+
+**Example `passwords.txt`:**
+
+```text
+admin:admin
+admin:12345
+admin:password
+root:root
+support:support
+service:123456
+```
+
+Note: The tool will automatically skip lines that do not contain the : separator.
 
 ---
 
