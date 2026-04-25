@@ -1,4 +1,4 @@
-# IP Camera Security Auditor ⬡
+# ⬡ IP Camera Security Auditor ⬡
 
 ![Field](https://img.shields.io/badge/Field-CyberSecurity-red)
 ![Certification](https://img.shields.io/badge/Auditor-CEH_Certified-blue)
@@ -48,30 +48,30 @@ python main.py
 
 </details>
 <details>
-<summary><b>2. Linux Setup (Kali/Ubuntu/Debian)</b></summary>
+<summary><b>2. Linux Setup (Kali/Ubuntu/Debian) (Click to expand)</b></summary>
 1. Install system dependencies:
 ```Bash
 sudo apt update
 sudo apt install python3-pip python3-pyqt5 ffmpeg -y
 ```
-1. Install Python requirements:
+2. Install Python requirements:
 ```Bash
 pip3 install -r requirements.txt
-````
-1. Run the application:
+```
+3. Run the application:
 ```Bash
 python3 main.py
 ```
 </details>
 <details>
-<summary><b>3. Termux Setup (Android)</b></summary>
+<summary><b>3. Termux Setup (Android) (Click to expand)</b></summary>
 Note: Requires an X11 environment or VNC for GUI display.
 1. Setup X11 Repo and Python:
 ```Bash
 pkg install x11-repo
 pkg install python python-pip qt5-base-desktop-minimal-common
 ```
-1. Install requirements and run:
+2. Install requirements and run:
 ```Bash
 pip install -r requirements.txt
 python main.py
@@ -80,7 +80,8 @@ python main.py
 
 ---
 
-##📖 Audit Workflow
+## 📖 Audit Workflow
+
 The tool enforces a sequential security methodology:
 Scan Network: Discover live assets on the subnet.
 Enumerate Services: Identify vendor signatures and active endpoints.
@@ -91,25 +92,10 @@ Export: Generate a professional PDF or CSV report.
 
 ---
 
-##📂 Project Structure
+## 📄 License
 
-```text
-ip-cam-auditor/
-├── main.py # Application Entry Point
-├── app/
-│ ├── config/ # Port definitions and credentials
-│ ├── core/ # Worker logic (Scan, Auth, Enum)
-│ ├── ui/ # GUI Layouts and Styles
-│ └── utils/ # Helper functions and PDF engines
-├── requirements.txt # Python Dependencies
-└── LICENSE # MIT License
-```
-
----
-
-📄 ##License
-Distributed under the [MIT License]
-(https://github.com/saddam-cybersec/ip-camera-security-auditor?tab=MIT-1-ov-file).
+Distributed under the[MIT](https://github.com/saddam-cybersec/ip-camera-security-auditor?tab=MIT-1-ov-file)
+License
 See LICENSE for more information.
 
 ---
