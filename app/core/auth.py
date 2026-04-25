@@ -1,0 +1,1 @@
+class AuthTestWorker: pass
