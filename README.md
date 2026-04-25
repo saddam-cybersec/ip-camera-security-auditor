@@ -50,32 +50,42 @@ python main.py
 <details>
 <summary><b>2. Linux Setup (Kali/Ubuntu/Debian) (Click to expand)</b></summary>
 1. Install system dependencies:
+
 ```Bash
 sudo apt update
 sudo apt install python3-pip python3-pyqt5 ffmpeg -y
 ```
+
 2. Install Python requirements:
+
 ```Bash
 pip3 install -r requirements.txt
 ```
+
 3. Run the application:
+
 ```Bash
 python3 main.py
 ```
+
 </details>
 <details>
 <summary><b>3. Termux Setup (Android) (Click to expand)</b></summary>
 Note: Requires an X11 environment or VNC for GUI display.
 1. Setup X11 Repo and Python:
+
 ```Bash
 pkg install x11-repo
 pkg install python python-pip qt5-base-desktop-minimal-common
 ```
+
 2. Install requirements and run:
+
 ```Bash
 pip install -r requirements.txt
 python main.py
 ```
+
 </details>
 
 ---
@@ -94,7 +104,7 @@ Export: Generate a professional PDF or CSV report.
 
 ## 📄 License
 
-Distributed under the[MIT](https://github.com/saddam-cybersec/ip-camera-security-auditor?tab=MIT-1-ov-file)
+Distributed under the [MIT](https://github.com/saddam-cybersec/ip-camera-security-auditor?tab=MIT-1-ov-file)
 License
 See LICENSE for more information.
 
